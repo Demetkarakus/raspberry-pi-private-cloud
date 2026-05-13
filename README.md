@@ -31,32 +31,32 @@ The aim of this project was to build a self-hosted private cloud platform that p
 - Performance and usability testing
 
 ## System Architecture
-![Private Cloud System Architecture]<img width="1295" height="863" alt="01_system_architecture_private_cloud" src="https://github.com/user-attachments/assets/540b0d0b-3f4e-48fd-b1e3-218c9f38221f" />
+<img width="1295" height="863" alt="01_system_architecture_private_cloud" src="https://github.com/user-attachments/assets/540b0d0b-3f4e-48fd-b1e3-218c9f38221f" />
 
 ## Implementation Evidence
 
 ### Nextcloud Dashboard
 The screenshot below shows successful browser-based access to the Nextcloud private cloud dashboard.
 
-![Nextcloud Dashboard]<img width="605" height="311" alt="08_nextcloud_dashboard_access" src="https://github.com/user-attachments/assets/9b5e869a-eb18-4185-893a-7ec0dc4c43bb" />
+<img width="605" height="311" alt="08_nextcloud_dashboard_access" src="https://github.com/user-attachments/assets/9b5e869a-eb18-4185-893a-7ec0dc4c43bb" />
 
 
 ### Firewall Configuration
 UFW was configured to control access to the private cloud server and restrict unnecessary network exposure.
 
-![UFW Firewall Rules]<img width="635" height="231" alt="04_ufw_firewall_rules" src="https://github.com/user-attachments/assets/5921fdd5-0bd1-4362-890b-c30a672ec1e8" />
+<img width="635" height="231" alt="04_ufw_firewall_rules" src="https://github.com/user-attachments/assets/5921fdd5-0bd1-4362-890b-c30a672ec1e8" />
 
 
 ### Trusted Domain Configuration
 Nextcloud trusted domains were configured to allow secure access through the local network environment.
 
-![Trusted Domains]<img width="471" height="79" alt="05_trusted_domain_configuration" src="https://github.com/user-attachments/assets/0b5b4126-b4de-4d39-958c-e06419f15415" />
+<img width="471" height="79" alt="05_trusted_domain_configuration" src="https://github.com/user-attachments/assets/0b5b4126-b4de-4d39-958c-e06419f15415" />
 
 
 ### Live System Monitoring
 Netdata was used to observe CPU, memory, network and system performance during private cloud operation.
 
-![Netdata Monitoring]<img width="1301" height="792" alt="12_netdata_live_monitoring_dashboard" src="https://github.com/user-attachments/assets/fed3ec71-e417-4054-aa2a-4d6a54b8023d" />
+<img width="1301" height="792" alt="12_netdata_live_monitoring_dashboard" src="https://github.com/user-attachments/assets/fed3ec71-e417-4054-aa2a-4d6a54b8023d" />
 
 ## Testing and Evaluation
 Testing included:
